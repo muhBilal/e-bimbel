@@ -1,4 +1,4 @@
-## Cara menjalankan
+## Run File
 
 1. jalankan `composer install`
 2. jalankan `npm install`
