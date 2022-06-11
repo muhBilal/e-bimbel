@@ -48,8 +48,7 @@
                                 @method('patch') {{--karena di dalam routing nya patch maka
                                 harus di tulis patch --}}
 
-                                @csrf {{-- karena di laravel ada keamanan csrf token yang
-                                selalu aktif jadi jika ada serangan dari luar ada csrf --}}
+                                @csrf
                                 <div class="form-group">
                                     <label>Nama Jenjang</label>
                                     <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
